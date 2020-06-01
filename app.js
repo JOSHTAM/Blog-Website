@@ -6,8 +6,8 @@ const mongoose = require("mongoose");
 const app = express();
 
 const homeStartingContent = "Hello, my name is Joshua and Welcome to my Programming Journal! 😎 This is simply a mini project that I created when I first began Web Developement. I strongly recommend beginners to Web Development, to challenge themselves by building their first blog website. That will make sure that the website doesn't go to waste as you will be able to log your learnings and progress along the way, as well as continue building and implementing new stuff to the website! Feel free to follow my journey! Cheers.";
-const aboutContent = "Hi this is the about page.";
-const contactContent = "Hi this is the contact details page.";
+const aboutContent = "My name is Joshua Tam and I am a year 3 Computer Engineering Student studying in the National University of Singapore. I am aspiring to become a full-stack web developer and work for big tech companies in future. As a self-directed learner, I like pacing myself learning stuff online that cannot be taught in school, like for example, all my Web Developement Skills.";
+const contactContent = "You can contact me at joshtam1997@gmail.com if you would like to ask me anything or collaborate with me! 😎";
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
